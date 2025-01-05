@@ -1,0 +1,112 @@
+html {
+    background-color: #f2e0d2;
+}
+
+body {
+    font-family: "Markazi Text", serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+header > img {
+    display: block;
+    width: 100%;
+}
+nav {
+    background-color: #d0604c;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #f2e0d2;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+    background-color: #d0604c;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly center;
+}
+
+footer div {
+    flex: 1;
+    text-align: center;
+}
+
+.copyrightLogo {
+    width: 50%;
+}
+
+.copyrightText {
+    font-size: large;
+    color: #d0604c;
+ }
+
+ article p {
+    color: #ffffff;
+ }
+
+article li {
+    color:#ffffff;
+}
+
+form {
+    text-align: center;
+}
+
+form div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+label {
+    color: #ffffff;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}

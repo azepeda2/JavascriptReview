@@ -1,0 +1,19 @@
+/* <input type="text"> */
+
+input[type="text"] {
+  width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1em;
+  border: 1px solid #111;   
+}
+
+/* <input type="email"> */
+
+input[type="email"] {
+  width: 25%;
+  font-family: Georgia;
+  height: 1em;
+  border: 1px solid blue;   
+}
+
+/* frameworks like Bootstrap, Tailwind, Foundation provide consistent styles across browsers */

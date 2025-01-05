@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta property="og:title" content="Hair Day">
+        <meta property="og:type"  content="website">
+        <meta property="og:image" content="Artboard 19.png">
+        <meta property="og:url"   content="https://index.html/">
+        <meta property="og:description" content="Based in Madison, Wisconsin, Hair Day is a boutique hair salon that specializes in cut, color and styling.">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:site_name" content="Hair Day">
+        
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <header>
+        <img src="Artboard 22.png">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="index.html">Book</a></li>
+            <li><a href="index.html">Tutorials</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article class="main">
+                <h2>All new customers enjoy a 30% off first service</h2>
+                <video width="320" height="240" controls muted autoplay loop>
+                    <source src="stockSalonVideo.mp4" type="video/mp4">
+                </video>
+                <p>Based in Madison, Wisconsin, Hair Day is a boutique hair salon 
+                    that specializes in cut, color and styling. Hair Day also offers 
+                    makeup and nail services, prides itself on its warm and relaxing 
+                    atmosphere and is best known for edgy hair colors and on-trend 
+                    cuts. The salon can only accommodate a small number of coloring 
+                    appointments each week, so clients need to book far in advance. 
+                    To keep clients inspired between appointments, the employees 
+                    share makeup and nail tutorials on the Hair Day website. 
+                </p>
+            </article>
+        </section>
+        <section>
+            <article class="info">
+                <h2>About Us</h2>
+                <img src="stockSalonOwner.jpg">
+                <p>Pria, the owner of Hair Day, earned her certificate as a colorist 
+                    and immediately started specializing in edgy, custom coloring 
+                    techniques. She wanted to create a "treat yourself" environment 
+                    for her clients. Pria opened the salon with her good friend and 
+                    talented hairdresser, Garry. They have a staff of seven: two 
+                    stylists, three colorists, one manicurist and one make-up artist.
+                </p>
+            </article>
+            <article class="info">
+                <h2>Services</h2>
+                <img src="stockNails.jpg">
+                <ul>
+                    <li>Hair cut, color, and styling</li>
+                    <li>Makeup</li>
+                    <li>Nails</li>
+                </ul>
+            </article>
+            <article class="info" id="booking_form">
+                <h2>Appointments</h2>
+                <img src="stockBooking.jpg">
+                <form method="post">
+                    <div>
+                        <label for="booking_date">Booking Date</label>
+                        <input type="date" id="booking_date" name="booking_date" required>
+                    </div>
+                        <label for="booking_service">Type of Service</label>
+                        <input id="booking_service" name="booking_service" list="services" required>
+                        <datalist id="services">
+                            <option value="Hair"></option>
+                            <option value="Nails"></option>
+                            <option value="Makeup"></option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="booking_time">Time of Appointment</label>
+                        <input type="time" id="booking_time" name="booking_time" min="09:00" max="18:00" value="09:00" required>                    </div>
+                    <div>
+                    <button type="submit">Book</button>
+                    <p>Booking Times range from 9am to 6pm</p>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img class="copyrightLogo" src="Artboard 1.png">
+        </div>
+        <div>
+            <p class="copyrightText">_________________________</p>
+            <p class="copyrightText">Copyright Hair Day</p>
+        </div>
+    </footer>
+</html>
